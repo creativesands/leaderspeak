@@ -23,6 +23,10 @@ h1, h2, h3, h4, h5, h6 {
     font-family: 'bebas-neue';
 }
 
+.translucent {
+    opacity: 0.5;
+}
+
 /*IMAGE UTILS*/
 .cover {
     width: 100%;
@@ -42,6 +46,10 @@ hr.short {
 
 .fs-red {
     color: #d04646;
+}
+
+.fs-strike {
+    text-decoration: line-through;
 }
 
 /*SOLID BACKGROUNDS*/
@@ -66,7 +74,8 @@ hr.short {
 /*MAIN CONTENT WRAPPER*/
 .main-content {
     background: white;
-    position: absolute !important; z-index: 50;
+    position: absolute; 
+    z-index: 50;
     top: 80%;
     width: 100%;
 }
@@ -101,6 +110,10 @@ hr.short {
     transition: color .25s;
 }
 
+.header__main-menu__logo {
+    width: 35pt;
+}
+
 .header__main-menu__link:hover {
     color: rgba(255, 255, 255, 1);
 }
@@ -124,6 +137,7 @@ hr.short {
 
 .banner__wrapper {
     height: 100%;
+    overflow: scroll;
 }
 
 .banner__event-credits {
@@ -133,7 +147,7 @@ hr.short {
     vertical-align: middle;
     position: relative;
     top: 50%;
-    transform: translateY(-85%);
+    transform: translateY(-98%);
 }
 
 .banner__event-credits__block {
@@ -148,11 +162,31 @@ hr.short {
     float: right;
 }
 
+.banner__questions {
+    text-align: center;
+    position: relative;
+}
+
+.banner__questions.one {
+    top: 30%;
+}
+
+.banner__questions.two {
+}
+
+.banner__questions.three {
+}
+
+.banner__question__text {
+    color: white;
+}
+
+
 /*SECTION: PROMO*/
 
 .promo {
     position: relative;
-    padding: 4em 2em 3em;
+    padding: 5% 2em 3em;
 }
 
 .promo__wrapper {
@@ -269,5 +303,200 @@ hr.short {
     color: #FFFFFF; font-size: 28pt; 
     margin: 10px 0 5px;
     text-align: center;
+}
+
+
+/*SECTION: EVENT-DETAILS*/
+.event-details {
+    padding: 4em 0;
+}
+
+.event-details__wrapper {
+}
+
+.event-details__heading {
+    color: white; font-size: 28pt; 
+}
+
+.event-details__text { color: #4a4a4a; 
+    font-size: 20pt;
+    margin: 1em 0;
+}
+
+/*VIP*/
+
+.row.event-details__vip__wrapper {
+    background: #d04646;
+    color: white;
+    padding: 2em 1em 2em 15%;
+    position: relative;
+    margin-bottom: 1%;
+}
+
+.event-details__vip__price {
+    text-align: center;
+    font-family: 'bebas-neue';
+    position: relative;
+    top: 50%;
+    transform: translateY(1%);
+    border-right: 1px solid rgba(255, 255, 255, 0.71);
+    padding: 2% 0;
+}
+
+.event-details__vip__title {
+    color: white;
+    font-size: 26pt;
+}
+
+.event-details__vip__price-text {
+    font-size: 20pt;
+    line-height: 20pt;
+    margin-bottom: 0;
+}
+
+.event-details__vip__desc {
+    padding-left: 5%;
+}
+
+.event-details__vip__desc__list {
+    margin-bottom: 0;
+}
+
+.event-details__vip__desc__item {
+}
+
+/*GOLD*/
+
+.event-details__gold__wrapper {
+    background: #ffae01;
+    color: white;
+    padding: 2em 0;
+    position: relative;
+    width: 49.5%;
+}
+
+.event-details__gold__price {
+    text-align: center;
+    font-family: 'bebas-neue';
+    border-right: 1px solid rgba(255, 255, 255, 0.71);
+    padding: 1% 0 3%;
+}
+
+.event-details__gold__title {
+    color: white;
+    font-size: 26pt;
+}
+
+.event-details__gold__price-text {
+    font-size: 20pt;
+    line-height: 20pt;
+    margin-bottom: 0;
+}
+
+.event-details__gold__desc {
+    padding-left: 5%;
+    margin-top: 1.75em;
+}
+
+.event-details__gold__desc__list {
+    margin-bottom: 0;
+}
+
+.event-details__gold__desc__item {
+}
+
+/*SILVER*/
+
+.event-details__silver__wrapper {
+    background: #dadada;
+    color: #6d6d6d;
+    padding: 2em 0;
+    position: relative;
+    width: 49.5%;
+}
+
+.event-details__silver__price {
+    text-align: center;
+    font-family: 'bebas-neue';
+    position: relative;
+    top: 50%;
+    transform: translateY(1%);
+    border-right: 1px solid rgba(109, 109, 109, 0.59);
+    padding: 2% 0;
+}
+
+.event-details__silver__title {
+    color: #6d6d6d;
+    font-size: 26pt;
+}
+
+.event-details__silver__price-text {
+    font-size: 20pt;
+    line-height: 20pt;
+    margin-bottom: 0;
+}
+
+.event-details__silver__desc {
+    padding-left: 5%;
+    margin-top: 2.5em;
+}
+
+.event-details__silver__desc__list {
+    margin-bottom: 0;
+}
+
+.event-details__silver__desc__item {
+}
+
+
+/*SECTION: FOOTER*/
+.footer {
+    background: #252629;
+    padding: 4em 0;
+    text-align: center;
+}
+
+.footer__wrapper {
+}
+
+.brand__logo {
+    width: 150px;
+    margin: auto;
+}
+
+.brand__name {
+    color: white;
+    font-size: 22pt;
+}
+
+.brand__email {
+    color: #ffcc29;
+    display: inline-block;
+    margin-bottom: 1em;
+}
+
+.brand__phone {
+    color: rgba(255, 255, 255, 0.75);
+    font-size: 0.85em;
+}
+
+.brand__social-links {
+}
+
+.brand__social-link-item {
+    width: 2em;
+    height: 2em;
+    display: inline-block;
+    margin-right: 2em;
+}
+
+.brand__social-link-item.facebook {
+    background: url(../img/facebook.png) center no-repeat;
+    background-size: cover;
+}
+
+.brand__social-link-item.twitter {
+    background: url(../img/twitter.png) center no-repeat; background-size: cover;
+    margin-right: 0;
 }
 
