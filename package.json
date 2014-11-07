@@ -1,0 +1,18 @@
+{
+  "name": "Leaderspeak",
+  "version": "1.0.0",
+  "description": "Leadership.in website design",
+  "main": "server.js",
+  "scripts": {
+    "test": "node server.js"
+  },
+  "author": "Sandeep S Kumar",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.8.10",
+    "gulp-autoprefixer": "^1.0.1",
+    "gulp-concat": "^2.4.1",
+    "gulp-connect": "^2.2.0",
+    "gulp-sourcemaps": "^1.2.7"
+  }
+}
