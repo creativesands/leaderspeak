@@ -90,7 +90,6 @@ hr.short {
 
 .author-quotes {
     text-align: center;
-    
     margin-top: 1em;
 }
 
@@ -552,3 +551,18 @@ hr.short {
     margin: 1em 0 0 0;
 }
 
+/*TESTIMONIALS*/
+
+.testimonials {
+    padding: 4em 0;
+}
+
+.testimonials__wrapper {
+}
+
+.testimonials__heading {
+    color: white; font-size: 28pt; 
+}
+
+.testimonials__content-text {
+}
