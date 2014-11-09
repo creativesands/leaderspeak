@@ -178,7 +178,6 @@ hr.short {
 
 .banner__event-credits__block.person {
     text-align: right;
-    margin-top: 2.5em;
 }
 
 .banner__event-credits__block.title {
@@ -193,7 +192,13 @@ hr.short {
 
 .banner__questions {
     text-align: center;
-    position: relative;
+    position: fixed;
+    visibility: hidden;
+    top: 120%;
+    width: 80%;
+    left: 10%;
+    right: 10%;
+    transform: scale(0.5);
 }
 
 .banner__questions.one {
@@ -207,6 +212,7 @@ hr.short {
 
 .banner__question__text {
     color: white;
+    font-size: 2em;
 }
 
 
