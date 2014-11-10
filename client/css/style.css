@@ -86,6 +86,8 @@ hr.short {
     z-index: 50;
     top: calc(100% - 6em);
     width: 100%;
+    left: 0;
+    right: 0;
 }
 
 .author-quotes {
@@ -137,7 +139,7 @@ hr.short {
 
 /*SECTION: BANNER*/
 .banner {
-    background: url(../img/dananjaya-bg.jpg);
+    background: url(../img/dh-banner.jpg);
     background-size: cover;
     background-position: center;
     position: fixed;
@@ -165,19 +167,20 @@ hr.short {
 
 .banner__event-credits__wrapper {
     position: relative;
-    transform: translateY(-55%);
+    transform: translateY(-75%);
     top: 50%;
     padding: 0 5%;
 }
 
 .banner__event-credits__block {
     font-family: 'bebas-neue';
-    font-size: 2.2em;
+    font-size: 2.5em;
     clear: both;
 }
 
 .banner__event-credits__block.person {
     text-align: right;
+    margin-top: -0.35em;
 }
 
 .banner__event-credits__block.title {
@@ -190,15 +193,19 @@ hr.short {
     float: right;
 }
 
+.banner__questions__wrapper {
+    text-align: center;
+    width: 100%;
+    bottom: 12em;
+    position: fixed;
+    height: 3em;
+}
+
 .banner__questions {
     text-align: center;
-    position: fixed;
-    visibility: hidden;
-    top: 120%;
-    width: 80%;
-    left: 10%;
-    right: 10%;
-    transform: scale(0.5);
+    position: absolute;
+    width: 100%;
+    transform: translateX(-100%);
 }
 
 .banner__questions.one {
@@ -212,7 +219,7 @@ hr.short {
 
 .banner__question__text {
     color: white;
-    font-size: 2em;
+    font-size: 1.5em;
 }
 
 
@@ -220,7 +227,8 @@ hr.short {
 
 .promo {
     position: relative;
-    padding: 4em 2em 3em;
+    padding: 6em 2em;
+    background: rgb(36, 39, 44);
 }
 
 .promo__wrapper {
@@ -252,9 +260,9 @@ hr.short {
 
 .promo__block-heading {
     text-align: center;
-    color: #4a4a4a;
+    color: #F7F7F7;
     font-size: 28pt;
-    margin: 0.75em 0;
+    margin: 1em 0;
 }
 
 .promo__block-heading__sub {
@@ -263,7 +271,8 @@ hr.short {
 }
 
 .promo__content {
-    margin-top: 2em;
+    margin-top: 3em;
+    color: white;
 }
 
 
@@ -338,6 +347,10 @@ hr.short {
 .champion-video__wrapper {
 }
 
+.champion-video__iframe {
+    width: 100%;
+}
+
 .champion-video__title {
     color: #FFFFFF; font-size: 28pt; 
     margin: 10px 0 5px;
@@ -347,7 +360,7 @@ hr.short {
 
 /*SECTION: EVENT-DETAILS*/
 .event-details {
-    padding: 4em 0;
+    padding: 4em 1em;
 }
 
 .event-details__wrapper {
@@ -560,7 +573,7 @@ hr.short {
 /*TESTIMONIALS*/
 
 .testimonials {
-    padding: 4em 0;
+    padding: 4em 1em;
 }
 
 .testimonials__wrapper {
@@ -570,5 +583,105 @@ hr.short {
     color: white; font-size: 28pt; 
 }
 
-.testimonials__content-text {
+.testimonials__content-text p {
+    font-size: 14px;
+}
+
+
+/*RESPONSIVE FIXES*/
+
+
+@media (max-width: 481px) {
+    .header__main-menu__item {
+        display: none;
+    }
+    
+    .header__main-menu__item.logo,
+    .header__main-menu__item.brand {
+        display: inline-block;
+    }
+    
+    .banner {
+        background-position: 35% center;
+    }
+
+    .banner__event-credits__block {
+        font-size: 1.5em;
+    }
+
+    .banner__event-credits__block.person {
+        margin-top: 2em;
+    }
+
+    .banner__event-credits__wrapper {
+        transform: translateY(0);    
+        top: 6em;
+    }
+
+    .banner__questions__wrapper {
+        bottom: 12em;
+    }
+
+    .event-details__gold__wrapper,
+    .event-details__silver__wrapper {
+    
+        width: 100%;
+        margin-bottom: 0.35em;
+    }
+
+    .trainer__profile-image {
+        width: 100%;
+    }
+
+    .trainer__content-photo {
+        padding-left: 0.9375rem;
+        padding-right: 0.9375rem;
+        width: 100%;
+    }
+
+    .trainer__content__container {
+        width: 100%;
+    }
+
+    .event-details__vip__price, 
+    .event-details__silver__price,
+    .event-details__gold__price {
+        border-right: none;
+    }
+
+    .row.event-details__vip__wrapper {
+        padding: 2em 1em; 
+    }
+
+}
+
+@media (max-width: 1000px) and (orientation: landscape) {
+    .banner__questions__wrapper {
+        /* display: none; */
+    }
+    
+    .event-details__vip__price, 
+    .event-details__silver__price,
+    .event-details__gold__price {
+        border-right: none;
+    }
+
+    .row.event-details__vip__wrapper {
+        padding: 2em 1em; 
+    }
+}
+
+@media (max-width: 765px) {
+    .header__main-menu__item {
+        display: none;
+    }
+    
+    .header__main-menu__item.logo,
+    .header__main-menu__item.brand {
+        display: inline-block;
+    }
+
+    .banner__event-credits__block {
+        font-size: 1.5em;
+    }
 }
