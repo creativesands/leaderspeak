@@ -231,6 +231,10 @@ hr.short {
     background: rgb(36, 39, 44);
 }
 
+.promo hr {
+    border: 1px solid #3C4147;
+}
+
 .promo__wrapper {
 }
 
@@ -272,7 +276,7 @@ hr.short {
 
 .promo__content {
     margin-top: 3em;
-    color: white;
+    color: rgb(208, 208, 208);
 }
 
 
