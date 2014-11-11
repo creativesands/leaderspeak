@@ -72,7 +72,7 @@ hr.short {
 }
 
 .solid-bg.black {
-    background: rgba(0, 0, 0, 0.5);
+    background: rgba(145, 77, 77, 0.5);
 }
 
 .solid-bg.white {
@@ -178,13 +178,32 @@ hr.short {
     clear: both;
 }
 
+.banner__event-credits__block.person-wrapper {
+    text-align: right;
+}
+
+.banner__event-credits__block.place {
+    text-align: right;
+}
+
 .banner__event-credits__block.person {
     text-align: right;
     margin-top: -0.35em;
+    line-height: 1.85em;
+    display: block;
 }
+
+span.banner__event-credits__block.person {}
 
 .banner__event-credits__block.title {
     text-align: right;
+    font-size: 1em;
+    line-height: 1em;
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin-top: -1em;
+    margin-bottom: 0.25em;
 }
 
 .banner__event-credits__logo {
@@ -228,11 +247,11 @@ hr.short {
 .promo {
     position: relative;
     padding: 6em 2em;
-    background: rgb(36, 39, 44);
+    background: white;
 }
 
 .promo hr {
-    border: 1px solid #3C4147;
+    border: 1px solid #B8B8B8;
 }
 
 .promo__wrapper {
@@ -264,7 +283,7 @@ hr.short {
 
 .promo__block-heading {
     text-align: center;
-    color: #F7F7F7;
+    color: #4a4a4a;
     font-size: 28pt;
     margin: 1em 0;
 }
@@ -276,7 +295,7 @@ hr.short {
 
 .promo__content {
     margin-top: 3em;
-    color: rgb(208, 208, 208);
+    color: rgb(81, 85, 92);
 }
 
 
