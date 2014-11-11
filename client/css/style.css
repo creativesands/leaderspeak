@@ -609,6 +609,10 @@ hr.short {
         background-position: 35% center;
     }
 
+    .banner__question__text {
+        font-size: 1.2em;
+    }
+
     .banner__event-credits__block {
         font-size: 1.5em;
     }
@@ -619,11 +623,15 @@ hr.short {
 
     .banner__event-credits__wrapper {
         transform: translateY(0);    
-        top: 6em;
+        top: 5em;
     }
 
     .banner__questions__wrapper {
-        bottom: 12em;
+        bottom: 4em;
+    }
+
+    .main-content {
+        top: 110%;
     }
 
     .event-details__gold__wrapper,
