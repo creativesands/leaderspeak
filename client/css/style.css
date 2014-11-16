@@ -72,7 +72,7 @@ hr.short {
 }
 
 .solid-bg.black {
-    background: rgba(145, 77, 77, 0.5);
+    background: rgba(44, 41, 41, 0.5);
 }
 
 .solid-bg.white {
@@ -141,7 +141,7 @@ hr.short {
 .banner {
     background: url(../img/dh-conf-banner-final.jpg);
     background-size: cover;
-    background-position: center;
+    background-position: center -50px;
     position: fixed;
     width: 100%;
     height: 100%;
@@ -174,8 +174,13 @@ hr.short {
 
 .banner__event-credits__block {
     font-family: 'bebas-neue';
-    font-size: 2.5em;
+    font-size: 2.75em;
     clear: both;
+}
+
+.banner__event-credits__block.person-wrapper p {
+    padding: 0 1em;
+    
 }
 
 .banner__event-credits__block.person-wrapper {
@@ -201,7 +206,7 @@ span.banner__event-credits__block.person {}
     line-height: 1em;
     display: block;
     width: 100%;
-    text-align: center;
+    /* text-align: center; */
     margin-top: -1em;
     margin-bottom: 0.25em;
 }
@@ -215,9 +220,10 @@ span.banner__event-credits__block.person {}
 .banner__questions__wrapper {
     text-align: center;
     width: 100%;
-    bottom: 12em;
+    bottom: 9em;
     position: fixed;
     height: 3em;
+    background: rgba(0, 0, 0, 0.57);
 }
 
 .banner__questions {
@@ -261,22 +267,23 @@ span.banner__event-credits__block.person {}
     position: absolute;
     top: 0;
     left: 50%;
-    margin: -40px 0 0 -40px;
-    width: 80px;
-    background: white;
-    height: 80px;
-    border: 5px solid #d04646;
-    transform: rotate(45deg);
+    margin: -30px 0 0 -90px;
+    width: 180px;
+    background: #d04646;
+    height: 60px;
+    border: 5px solid #B03F3F;
+    /* transform: rotate(45deg); */
     cursor: pointer;
+    text-align: center;
 }
 
 .promo__book-button__text {
-    transform: rotate(-45deg);
+    /* transform: rotate(-45deg); */
     display: inline-block;
     font-family: 'bebas-neue';
-    color: #d04646;
-    font-size: 16pt;
-    line-height: 16pt;
+    color: white;
+    font-size: 18pt;
+    line-height: 17pt;
     padding: 15px 20px;
     text-align: center;
 }
