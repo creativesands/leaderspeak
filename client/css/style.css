@@ -139,7 +139,7 @@ hr.short {
 
 /*SECTION: BANNER*/
 .banner {
-    background: url(../img/dh-banner.jpg);
+    background: url(../img/dh-conf-banner-final.jpg);
     background-size: cover;
     background-position: center;
     position: fixed;
@@ -556,6 +556,14 @@ span.banner__event-credits__block.person {}
 .brand__name {
     color: white;
     font-size: 22pt;
+}
+
+.brand__about {
+}
+
+.brand__about__links {
+    color: #ffcc29; display: inline-block; margin-bottom: 1em;
+    transition: all .3s;
 }
 
 .brand__email {
