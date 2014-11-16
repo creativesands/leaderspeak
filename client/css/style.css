@@ -315,6 +315,12 @@ span.banner__event-credits__block.person {}
     border-top: 1px solid #ddd;
 }
 
+.benefits__images {
+    display: block;
+    margin-bottom: 10px;
+    height: auto;
+}
+
 .benefits__wrapper {
 }
 
