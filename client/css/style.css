@@ -185,6 +185,22 @@ hr.short {
     line-height: 1em;
 }
 
+.banner__event-credits__block.place .banner__event-credits__block-group {
+    padding: 0.5em 0em;
+}
+
+.banner__event-credits__block-place {
+    font-family: 'bebas-neue'; font-size: 2.75em; display: block; line-height: 1em; 
+    padding: 0 0.25em;
+    text-align: right;
+}
+
+.banner__event-credits__block-date {
+    font-family: 'bebas-neue'; font-size: 1.25em; display: block; text-align: center; 
+    line-height: 1em;
+    margin-top: -1em;
+}
+
 .banner__event-credits__wrapper {
     position: relative;
     transform: translateY(-75%);
