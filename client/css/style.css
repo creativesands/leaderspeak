@@ -165,6 +165,26 @@ hr.short {
     overflow: auto;
 }
 
+.banner__event-credits__block-group {
+    padding: 0.5em 2em;
+}
+
+.banner__event-credits__block-title {
+    font-family: 'bebas-neue'; 
+    font-size: 2.75em;
+    display: block;
+    line-height: 1em;
+    padding: 0 1em;
+}
+
+.banner__event-credits__block-sub-title {
+    font-family: 'bebas-neue'; 
+    font-size: 1.25em;
+    display: block;
+    text-align: center;
+    line-height: 1em;
+}
+
 .banner__event-credits__wrapper {
     position: relative;
     transform: translateY(-75%);
@@ -179,7 +199,7 @@ hr.short {
 }
 
 .banner__event-credits__block.person-wrapper p {
-    padding: 0 1em;
+    padding: 1.2em 1em 0.25em;
     
 }
 
@@ -198,16 +218,18 @@ hr.short {
     display: block;
 }
 
-span.banner__event-credits__block.person {}
+span.banner__event-credits__block.person {
+    line-height: 1.25em;
+}
 
 .banner__event-credits__block.title {
     text-align: right;
-    font-size: 1em;
+    font-size: 1.25em;
     line-height: 1em;
     display: block;
     width: 100%;
-    /* text-align: center; */
-    margin-top: -1em;
+    text-align: center;
+    /* margin-top: -1em; */
     margin-bottom: 0.25em;
 }
 
@@ -254,7 +276,7 @@ span.banner__event-credits__block.person {}
 
 .promo {
     position: relative;
-    padding: 6em 2em;
+    padding: 5em 2em;
     background: white;
 }
 
@@ -577,14 +599,18 @@ span.banner__event-credits__block.person {}
 }
 
 .brand__about__links {
-    color: #ffcc29; display: inline-block; margin-bottom: 1em;
+/*    color: #ffcc29; */
+    display: inline-block; 
+    margin-bottom: 0.75em;
     transition: all .3s;
+    cursor: pointer;
 }
 
 .brand__email {
-    color: #ffcc29;
+/*    color: #ffcc29;*/
     display: inline-block;
     margin-bottom: 1em;
+    cursor: pointer;
 }
 
 .brand__phone {
