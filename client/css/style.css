@@ -715,18 +715,40 @@ color: #DDDDDD;
     .banner__event-credits__block {
         font-size: 1.5em;
     }
+    
+    .banner__event-credits__block.brand {}
+    
+    .banner__event-credits__block.sub {}
 
-    .banner__event-credits__block.person {
-        margin-top: 2em;
+    .banner__event-credits__block.person-wrapper {
+            position: absolute;
+            bottom: 4.6em;
+            right: 3%;
+    }
+    
+    .banner__event-credits__block.place {
+        position: absolute;
+        bottom: 1.2em;
+        right: 3%;
+    }
+
+    .banner__event-credits__block-title {
+        font-size: 1.5em;
     }
 
     .banner__event-credits__wrapper {
         transform: translateY(0);    
-        top: 5em;
+        position: absolute;
+        top: 4em;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        padding: 12% 3%;
     }
 
     .banner__questions__wrapper {
         bottom: 4em;
+        display: none;
     }
 
     .main-content {
@@ -768,7 +790,7 @@ color: #DDDDDD;
 
 @media (max-width: 1000px) and (orientation: landscape) {
     .banner__questions__wrapper {
-        /* display: none; */
+        display: none;
     }
     
     .event-details__vip__price, 
@@ -776,10 +798,34 @@ color: #DDDDDD;
     .event-details__gold__price {
         border-right: none;
     }
+    
+    .main-content {
+        top: 115%;
+    }
+    
+    .banner__event-credits__wrapper {
+        position: absolute;
+        top: 4em;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        transform: translateY(0);
+        padding: 2%;
+}
+    
+    .banner__event-credits__block-title,
+    .banner__event-credits__block-place {
+        font-size: 1.5em;
+    }
+     
+    .banner__event-credits__block.person-wrapper {
+/*         margin-top: -1.2em; */
+    }
 
     .row.event-details__vip__wrapper {
         padding: 2em 1em; 
     }
+
 }
 
 @media (max-width: 765px) {
@@ -794,5 +840,17 @@ color: #DDDDDD;
 
     .banner__event-credits__block {
         font-size: 1.5em;
+    }
+
+    .banner__event-credits__block.person-wrapper {
+            position: absolute;
+            bottom: 3.6em;
+            right: 3%;
+    }
+    
+    .banner__event-credits__block.place {
+        position: absolute;
+        bottom: 0.4em;
+        right: 3%;
     }
 }
