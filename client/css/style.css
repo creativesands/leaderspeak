@@ -718,7 +718,10 @@ color: #DDDDDD;
     
     .banner__event-credits__block.brand {}
     
-    .banner__event-credits__block.sub {}
+    .banner__event-credits__block.sub,
+    .banner__event-credits__block-place {
+        font-size: 1.25em;
+    }
 
     .banner__event-credits__block.person-wrapper {
             position: absolute;
@@ -743,7 +746,7 @@ color: #DDDDDD;
         bottom: 0;
         left: 0;
         right: 0;
-        padding: 12% 3%;
+        padding: 6% 3%;
     }
 
     .banner__questions__wrapper {
@@ -844,7 +847,7 @@ color: #DDDDDD;
 
     .banner__event-credits__block.person-wrapper {
             position: absolute;
-            bottom: 3.6em;
+            bottom: 3.3em;
             right: 3%;
     }
     
