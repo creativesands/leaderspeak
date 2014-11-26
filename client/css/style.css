@@ -806,6 +806,27 @@ color: #DDDDDD;
         top: 115%;
     }
     
+    .banner__event-credits__block-title {
+        color: rgba(255, 255, 255, 1);
+    }
+    
+    .banner__event-credits__block-sub-title{
+        text-shadow: 0 0 10px rgba(0, 0, 0, 0.38);
+    }
+    
+    .banner__event-credits__block.sub {
+        font-size: 1.25em;
+    }
+    
+    .banner__event-credits__block.person,
+    .banner__event-credits__block.title {
+        text-shadow: 0 0 10px rgba(0, 0, 0, 0.38);
+    }
+    
+    .solid-bg.red {
+        background: rgba(255, 255, 255, 0.35);
+    }
+    
     .banner__event-credits__wrapper {
         position: absolute;
         top: 4em;
@@ -819,7 +840,10 @@ color: #DDDDDD;
     .banner__event-credits__block-title,
     .banner__event-credits__block-place {
         font-size: 1.5em;
-    }
+    
+        letter-spacing: 0;
+        text-shadow: 0 0 10px rgba(0, 0, 0, 0.38);
+}
      
     .banner__event-credits__block.person-wrapper {
 /*         margin-top: -1.2em; */
