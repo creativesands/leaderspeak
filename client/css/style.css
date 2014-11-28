@@ -601,7 +601,7 @@ span.banner__event-credits__block.person {
 /*SECTION: FOOTER*/
 .footer {
     background: #252629;
-    padding: 3em 0 2em;
+    padding: 3em 1em 2em;
     text-align: center;
 }
 
@@ -787,6 +787,11 @@ color: #DDDDDD;
 
     .row.event-details__vip__wrapper {
         padding: 2em 1em; 
+    }
+    
+    .brand__links-group, 
+    .brand__mail-group {
+        text-align: center;
     }
 
 }
