@@ -19,7 +19,7 @@ gulp.task('css', function () {
 
 gulp.task('server', function () {
     connect.server({
-        port: 8080
+        port: 8088
 //        livereload: { port: 8050 }
     });
 });

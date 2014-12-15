@@ -307,6 +307,11 @@ span.banner__event-credits__block.person {
 }
 
 .promo__wrapper {
+    
+}
+
+.promo__main-body {
+    padding-top: 3em;
 }
 
 .promo__book-button {
@@ -348,7 +353,7 @@ span.banner__event-credits__block.person {
 }
 
 .promo__content {
-    margin-top: 3em;
+    margin-top: 2em;
     color: rgb(81, 85, 92);
 }
 
@@ -890,6 +895,34 @@ color: #DDDDDD;
             position: absolute;
             bottom: 3.3em;
             right: 3%;
+    }
+    
+    .banner__event-credits__block.place {
+        position: absolute;
+        bottom: 0.4em;
+        right: 3%;
+    }
+}
+
+@media (min-width: 1000px) and (max-height: 600px) {
+    .banner__event-credits__wrapper {
+        transform: translateY(0);
+        position: absolute;
+        top: 4em;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        padding: 6% 3%;
+    }
+    
+    .banner__questions__wrapper {
+        display: none;
+    }
+    
+    .banner__event-credits__block.person-wrapper {
+        position: absolute;
+        bottom: 3.3em;
+        right: 3%;
     }
     
     .banner__event-credits__block.place {
